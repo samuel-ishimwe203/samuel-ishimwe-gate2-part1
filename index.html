@@ -8,118 +8,90 @@
 </head>
 <body class="overflow-x-hidden">
 
+<div class="h-screen bg-[url('./src/images/pic1.webp')] bg-cover bg-center relative">
+    <!-- Header -->
+    <div class="flex justify-between px-4 md:px-16 items-center pt-2 md:pt-4 font-serif">
+        <div><img class="w-[150px] md:w-[250px] invert" src="./src/images/4a3f577f-8e32-4fd0-9e9c-34cd4d32a1d5.svg" alt=""></div>
+        <div class="flex items-center gap-4 md:hidden">
+            <button id="menu-toggle" class="text-white focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+            <button class="text-white focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+            </button>
+        </div>
+        <div class="hidden md:flex md:items-center md:gap-5 md:text-base text-white list-none">
+            <li class="hover:underline hover:decoration-2"><a href="#">News</a></li><hr>
+            <li class="hover:underline hover:decoration-2"><a href="#">Jobs</a></li><hr>
+            <li class="hover:underline hover:decoration-2"><a href="#">Donate</a></li><hr>
+            <li class="hover:underline hover:decoration-2"><a href="#">A-Z</a></li><hr>
+            <li class="hover:underline hover:decoration-2"><a href="#">alumni</a></li>
+            <li class="hover:underline hover:decoration-2"><a href="#">Staff</a></li>
+            <li class="hover:underline hover:decoration-2"><a href="#">Students</a></li>
+        </div>
+    </div>
+    <div class="hidden md:flex justify-between px-4 md:px-16 mt-2 md:mt-4">
+        <div class="flex gap-2 md:gap-3">
+            <div class="list-none font-bold">
+                <li class="text-[14px] md:text-[18px] text-white"><a href="#" class="flex items-center gap-1 md:gap-2 hover:underline hover:decoration-2">study <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 md:w-6 md:h-6"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg></a></li>
+            </div>
+            <div class="list-none font-bold">
+                <li class="text-[14px] md:text-[18px] text-white"><a href="#" class="flex items-center gap-1 md:gap-2 hover:underline hover:decoration-2">Student life <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 md:w-6 md:h-6"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg></a></li>
+            </div>
+            <div class="list-none font-bold">
+                <li class="text-[14px] md:text-[18px] text-white"><a href="#" class="flex items-center gap-1 md:gap-2 hover:underline hover:decoration-2">Research and innovation <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 md:w-6 md:h-6"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg></a></li>
+            </div>
+            <div class="list-none font-bold">
+                <li class="text-[14px] md:text-[18px] text-white"><a href="#" class="flex items-center gap-1 md:gap-2 hover:underline hover:decoration-2">Global <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 md:w-6 md:h-6"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg></a></li>
+            </div>
+            <div class="list-none font-bold">
+                <li class="text-[14px] md:text-[18px] text-white"><a href="#" class="flex items-center gap-1 md:gap-2 hover:underline hover:decoration-2">About us <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 md:w-6 md:h-6"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg></a></li>
+            </div>
+        </div>
+        <div class="text-white flex gap-1 md:gap-2 items-center text-[14px] md:text-[18px]">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 md:w-6 md:h-6"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /></svg>
+            <span>Search the site</span>
+        </div>
+    </div>
 
-    <div class="h-screen bg-[url('./src/images/pic1.webp')] bg-cover">
+  
+    <div id="mobile-menu" class="hidden md:hidden fixed top-0 left-0 w-full h-full bg-white p-4 z-50">
+        <button id="close-menu" class="float-right text-gray-800 focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m6 18 6-6 6 6" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="m6 6 6 6 6-6" />
+            </svg>
+        </button>
+        <ul class="mt-10 space-y-4 text-blue-800 text-lg">
+            <li><a href="#" class="hover:underline hover:decoration-2">Home</a></li>
+            <li><a href="#" class="hover:underline hover:decoration-2">Study <span class="text-gray-500">></span></a></li>
+            <li><a href="#" class="hover:underline hover:decoration-2">Student life <span class="text-gray-500">></span></a></li>
+            <li><a href="#" class="hover:underline hover:decoration-2">Research and innovation <span class="text-gray-500">></span></a></li>
+            <li><a href="#" class="hover:underline hover:decoration-2">Global <span class="text-gray-500">></span></a></li>
+            <li><a href="#" class="hover:underline hover:decoration-2">About us <span class="text-gray-500">></span></a></li>
+            <li><a href="#" class="hover:underline hover:decoration-2">News</a></li>
+            <li><a href="#" class="hover:underline hover:decoration-2">Jobs</a></li>
+            <li><a href="#" class="hover:underline hover:decoration-2">Donate</a></li>
+            <li><a href="#" class="hover:underline hover:decoration-2">A-Z</a></li>
+        </ul>
+    </div>
 
-      <div class="flex justify-between px-16 items-center pt-4 font-serif">
-         <div><img class="w-[250px] invert" src="./src/images/4a3f577f-8e32-4fd0-9e9c-34cd4d32a1d5.svg" alt=""></div>
-         <div class="text-white list-none flex gap-5">
-             <li class="hover:underline hover:decoration-2"> <a href="#">News</a></li>
-              <li class="hover:underline hover:decoration-2"><a href="#">Jobs</a></li>
-               <li class="hover:underline hover:decoration-2"><a href="#">Donate</a></li>
-                <li class="hover:underline hover:decoration-2"><a href="#">A-Z</a></li>
-                 <li class="hover:underline hover:decoration-2"><a href="#">alumni</a></li>
-                  <li class="hover:underline hover:decoration-2"><a href="#">Staff</a></li>
-                   <li class="hover:underline hover:decoration-2"><a href="#">Students</a></li>
-         </div>
-         </div>
+  
+    <div class="mt-8 md:mt-16 text-4xl md:text-6xl p-2 font-bold text-white border-2 w-[80%] md:w-[50%] mx-4 md:mx-16">
+        <p>YOUR NEXT CHAPTER STARTS NOW</p>
+    </div>
+    <div class="text-lg md:text-2xl p-2 md:p-3 text-white border-2 w-[80%] md:w-[41%] mx-4 md:mx-16">
+        <p>Welcome to Liverpool! If you're joining us in September, we can't wait to meet you. Find out what you can do now to get ready.</p>
+    </div>
+    <div class="mt-4 md:mt-10 border p-2 md:p-3 w-[40%] md:w-[22%] mx-4 md:mx-16 text-white text-base md:text-xl flex gap-2 md:gap-3">
+        <div><p class="text-white">Explore our welcome activities</p></div>
+        <div class="mt-0 md:mt-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 md:w-6 md:h-6"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg></div>
+    </div>
 
-
-
-              <div class="flex mt-4 justify-between px-16">
-         <div class="flex gap-3">
-
-         <div class="list-none font-bold ">
-                <li class="text-[18px] text-white"><a href="#">
-                  <div class="flex items-center gap-2">
-                     <div  class="hover:underline hover:decoration-2">study</div>
-                     <div class="mt-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-</svg>
-</div></div>
-                </a></li>
-         </div>
-
-         
-               <div class="list-none  font-bold ">
-                <li class="text-[18px] text-white"><a href="#">
-                  <div class="flex items-center gap-2">
-                     <div  class="hover:underline hover:decoration-2">Student life</div>
-                     <div class="mt-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-</svg>
-</div></div>
-                </a></li>
-         </div>
-
-             <div class="list-none  font-bold ">
-                <li class="text-[18px] text-white"><a href="#">
-                  <div class="flex items-center gap-2">
-                     <div  class="hover:underline hover:decoration-2">Research and innovation</div>
-                     <div class="mt-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-</svg>
-</div></div>
-                </a></li>
-         </div>
-
-
-
-             <div class="list-none font-bold">
-                <li class=" text-[18px] text-white"><a href="#">
-                  <div class="flex items-center gap-2">
-                     <div  class="hover:underline hover:decoration-2">Global</div>
-                     <div class="mt-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-</svg>
-</div></div>
-                </a></li>
-         </div>
-
-
-             <div class="list-none font-bold">
-                <li class="text-[18px] text-white"><a href="#">
-                  <div class="flex items-center gap-2">
-                     <div  class="hover:underline hover:decoration-2">About us</div>
-                     <div class="mt-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-</svg>
-</div></div>
-                </a></li>
-              </div></div>
-
-
-
-
-              <div class=" text-white flex gap-2">
-              <div class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-</svg>
-</div>
-
-
-     <div class="text-[18px]">Search the site</div>
-  </div>
-</div>
-
-
-   <div class="mt-16 text-6xl p-2 font-bold text-white border-2 w-[50%] mx-16">
-         <p>YOUR NEXT CHAPTER STARTS NOW</p>
-        
-   </div>
-      <div class="text-2xl p-3  text-white border-2 w-[41%] mx-16">
-         <p>Welcome to Liverpool! If you're joining us in September, we can't wait to meet you. Find out what you can do now to get ready.</p>
-        
-   </div>
-
-   <div class="mt-10 border p-3 w-[22%] mx-16 text-white text-xl flex gap-3">
-        <div><p class=" text-white">Explore our welcome activities</p></div>
-        <div class="mt-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-</svg>
-</div>
-
-   </div>
    
        <div class="bg-[#212B58] pb-12 mt-18">
    <div class="text-white mt-12 w-full flex gap-10 items-center justify-center pt-8">
@@ -569,5 +541,20 @@
         <p class="mt-2">&copy; University of Liverpool</p>
     </div>
 </footer>
+
+
+<script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const closeMenu = document.getElementById('close-menu');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.remove('hidden');
+    });
+
+    closeMenu.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+    });
+</script>
 </body>
 </html>
