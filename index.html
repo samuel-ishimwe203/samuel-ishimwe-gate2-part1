@@ -88,111 +88,101 @@
         <p>Welcome to Liverpool! If you're joining us in September, we can't wait to meet you. Find out what you can do now to get ready.</p>
     </div>
     <div class="mt-4 md:mt-10 border p-2 md:p-3 w-[40%] md:w-[22%] mx-4 md:mx-16 text-white text-base md:text-xl flex gap-2 md:gap-3">
-        <div><p class="text-white">Explore our welcome activities</p></div>
+        <div><p class="text-white hover:underline decoration-2">Explore our welcome activities</p></div>
         <div class="mt-0 md:mt-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 md:w-6 md:h-6"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg></div>
     </div>
 
    
-   <div class="bg-[#212B58] pb-12 mt-18">
-    <div class="text-white mt-12 w-full flex items-center  gap-8 pt-8 justify-center">
+<div class="bg-[#212B58] pb-12 mt-18">
+    <div class="text-white mt-12 w-full flex flex-col items-center gap-4 pt-8 justify-center sm:flex-row sm:gap-8 sm:items-center">
         <div class="text-xl"><p>Find your course</p></div>
-        <div class="pt-1"><input class="border w-[500px] p-3 bg-white text-black" type="text"></div>
-        <div class="border bg-[#212B58] w-[80px] p-2 text-center text-xl text-white"><p>Search</p></div>
-        <div class="text-xl text-white space-y-1">
+        <div class="pt-1 w-full sm:w-auto"><input class="border w-full sm:w-[500px] p-3 bg-white text-black" type="text"></div>
+        <div class="border bg-[#212B58] w-full sm:w-[80px] p-2 text-center text-xl text-white hover:underline decoration-2"><p>Search</p></div>
+        <div class="text-xl text-white space-y-1 w-full sm:w-auto">
             <p class="underline decoration-2">Courses by A-Z</p>
             <p class="underline decoration-2">Courses by subject</p>
         </div>
     </div>
-    <div class="text-xl text-white flex gap-9 mt-6 mx-auto w-full justify-center">
+    <div class="text-xl text-white flex flex-col gap-2 mt-4 mx-auto w-full justify-center sm:flex-row sm:gap-9 sm:mt-6">
         <label class="flex items-center gap-2">
-            <input type="radio"  class="form-radio text-white">
+            <input type="radio" name="course-type" class="form-radio text-white">
             <span class="text-white">Undergraduate</span>
         </label>
         <label class="flex items-center gap-2">
-            <input type="radio"  class="form-radio text-white">
+            <input type="radio" name="course-type" class="form-radio text-white">
             <span class="text-white">Postgraduate taught</span>
         </label>
         <label class="flex items-center gap-2">
-            <input type="radio"  class="form-radio text-white">
+            <input type="radio" name="course-type" class="form-radio text-white">
             <span class="text-white">Postgraduate research</span>
         </label>
     </div>
-</div>  
+</div>
   </div>
 
 
 
   
  
-    <p class="text-4xl text-black font-bold px-16 mt-20 ">Discover the University of Liverpool</p>
-        <div class="px-16 flex ">
-    <div class="mt-10 flex">
-
-    <div ><img class="w-[90%]" src="./src/images/house.jpeg" alt=""></div>
-    <div class=""> <p class="text-xl">We are the University of Liverpool. Located at the heart of a thrilling world city, we are a dynamic institution of academic excellence and innovation, making a positive impact across the United Kingdom and the wider world.</p>
-    <p class="mt-8 text-[18px]">Since 1881, we've been at the forefront of world-class research and education, known for our cutting-edge facilities and relentless pursuit of excellence and achievement. Find out how you can be part of our vibrant community and explore the work we’re doing with our famous home city.</p>
-    
-      <div class="flex gap-4 mt-6">
-             <div class="border border-black w-[27%] p-4 text-center mt-2 text-xl hover:underline hover:decoration-2"><p>Learn about us</p></div>
-              <div class="border border-black w-[48%] p-4 text-center mt-2 text-xl hover:underline hover:decoration-2"><p>Liverpool: Our city, Our inspiration </p></div>
-      </div>
-  
-  </div>
-
-          
-  </div>
+ <div class="bg-white">
+    <p class="text-4xl text-black font-bold px-4 sm:px-16 mt-8 sm:mt-20">Discover the University of Liverpool</p>
+    <div class="px-4 sm:px-16 flex flex-col sm:flex-row">
+        <div class="mt-4 sm:mt-10 flex flex-col sm:flex-row w-full">
+            <div class="w-full sm:w-[40%]"><img class="w-full sm:w-[90%]" src="./src/images/house.jpeg" alt=""></div>
+            <div class="w-full sm:w-[60%]">
+                <p class="text-xl mt-4 sm:mt-0">We are the University of Liverpool. Located at the heart of a thrilling world city, we are a dynamic institution of academic excellence and innovation, making a positive impact across the United Kingdom and the wider world.</p>
+                <p class="mt-4 sm:mt-8 text-[18px]">Since 1881, we've been at the forefront of world-class research and education, known for our cutting-edge facilities and relentless pursuit of excellence and achievement. Find out how you can be part of our vibrant community and explore the work we’re doing with our famous home city.</p>
+                <div class="flex flex-col sm:flex-row gap-4 mt-4 sm:mt-6">
+                    <div class="border border-black w-full sm:w-[27%] p-2 sm:p-4 text-center mt-2 text-lg sm:text-xl hover:underline hover:decoration-2"><p>Learn about us</p></div>
+                    <div class="border border-black w-full sm:w-[48%] p-2 sm:p-4 text-center mt-2 text-lg sm:text-xl hover:underline hover:decoration-2"><p>Liverpool: Our city, Our inspiration</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
+<!-- Top Section -->
+<div class="flex flex-col sm:flex-row mt-8 sm:mt-20 mx-4 sm:mx-16 gap-4 sm:gap-3 bg-[#EF426F] text-white p-2 sm:p-4 pb-4 sm:pb-8 items-center pt-4 sm:pt-11">
+    <div><img class="w-[60px] sm:w-[100px] invert" src="./src/images/img.svg" alt=""></div>
+    <div><p class="text-xl sm:text-3xl font-bold pl-1 sm:pl-3">Manage your offer</p></div>
+    <div><p class="text-lg sm:text-2xl pl-2 sm:pl-6">Find out how to confirm your place to study at Liverpool and make changes to your offer.</p></div>
+    <div class="border border-black w-full sm:w-[16%] p-2 sm:p-4 text-center mt-2 text-lg sm:text-xl hover:underline hover:decoration-2 bg-[#212B58]"><p>Manage your offer now</p></div>
+</div>
 
-  <div class="flex mt-20 mx-16 gap-3 bg-[#EF426F] text-white p-4  pb-8 items-center pt-11 "> 
-       
-    <div><img class="w-[100px] invert" src="./src/images/img.svg" alt=""></div>
-    <div><p class="text-3xl font-bold pl-3">Manage your offer</p></div>
-    <div><p class="text-2xl pl-6">Find out how to confirm your place to study at Liverpool and make changes to your offer.</p></div>
-    <div class="border border-black w-[16%] p-4 text-center mt-2 text-xl hover:underline hover:decoration-2 bg-[#212B58]"><p>Manage your offer now</p></div>
-
-  </div>
-
-   <div class="flex mx-16 mt-12">
- 
-  <div class="bg-[#212B58] p-14 w-1/2">
-    <div class="text-white">
-      <p class="text-3xl font-bold">Study with us</p>
-      <p class="mt-6 text-xl">
-        Discover endless possibilities. We offer a range of courses with support and expertise 
-        to help you succeed in your future career. Find your perfect course, explore our subject 
-        areas or discover everything you need to know about studying with us.
-      </p>
+<!-- Bottom Section -->
+<div class="flex flex-col sm:flex-row mx-4 sm:mx-16 mt-4 sm:mt-12">
+    <div class="bg-[#212B58] p-4 sm:p-14 w-full sm:w-1/2">
+        <div class="text-white">
+            <p class="text-xl sm:text-3xl font-bold">Study with us</p>
+            <p class="mt-2 sm:mt-6 text-lg sm:text-xl">
+                Discover endless possibilities. We offer a range of courses with support and expertise 
+                to help you succeed in your future career. Find your perfect course, explore our subject 
+                areas or discover everything you need to know about studying with us.
+            </p>
+        </div>
+        <div class="text-white mt-4 sm:mt-10 flex flex-col sm:flex-row gap-2 sm:gap-4">
+            <div class="border border-white w-full sm:w-[33%] p-1 sm:p-2 text-center text-lg sm:text-xl hover:underline hover:decoration-2">
+                <p>Undergraduate</p>
+            </div>
+            <div class="border border-white w-full sm:w-[25%] p-1 sm:p-2 text-center text-lg sm:text-xl hover:underline hover:decoration-2">
+                <p>Master's</p>
+            </div>
+            <div class="border border-white w-full sm:flex-1 p-1 sm:p-2 text-center text-lg sm:text-xl hover:underline hover:decoration-2">
+                <p>Postgraduate research</p>
+            </div>
+        </div>
+        <div class="text-white mt-2 sm:mt-6 flex flex-col sm:flex-row gap-2 sm:gap-4">
+            <div class="border border-white w-full sm:flex-1 p-1 sm:p-2 text-center text-lg sm:text-xl hover:underline hover:decoration-2">
+                <p>Continuing Professional Development</p>
+            </div>
+            <div class="border border-white w-full sm:flex-1 p-1 sm:p-2 text-center text-lg sm:text-xl hover:underline hover:decoration-2">
+                <p>International students</p>
+            </div>
+        </div>
     </div>
-
-    
-    <div class="text-white mt-10 flex gap-4">
-      <div class="border border-white w-[33%] p-2 text-center text-xl hover:underline hover:decoration-2">
-        <p>Undergraduate</p>
-      </div>
-      <div class="border border-white w-[25%] p-2 text-center text-xl hover:underline hover:decoration-2">
-        <p>Master's</p>
-      </div>
-      <div class="border border-white flex-1 p-2 text-center text-xl hover:underline hover:decoration-2">
-        <p>Postgraduate research</p>
-      </div>
+    <div class="w-full sm:w-1/2 mt-4 sm:mt-0">
+        <img class="w-full h-full object-cover" src="./src/images/nig.jpeg" alt="">
     </div>
-
-   
-    <div class="text-white mt-6 flex gap-4">
-      <div class="border border-white flex-1 p-2 text-center text-xl hover:underline hover:decoration-2">
-        <p>Continuing Professional Development</p>
-      </div>
-      <div class="border border-white flex-1 p-2 text-center text-xl hover:underline hover:decoration-2">
-        <p>International students</p>
-      </div>
-    </div>
-  </div>
-
-  
-  <div class="w-1/2">
-    <img class="h-full object-cover" src="./src/images/nig.jpeg" alt="">
-  </div>
 </div>
 
   <div class="flex mt-20 mx-16 gap-3 bg-[#EF426F] text-white p-4  pb-8 items-center pt-11 "> 
